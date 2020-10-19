@@ -1,0 +1,16 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/opt/httpd-2.4.46/srclib/apr-util/configure" \
+"--disable-option-checking" \
+"--with-pcre=/usr/local/pcre" \
+"--cache-file=/dev/null" \
+"--srcdir=/opt/httpd-2.4.46/srclib/apr-util" \
+"--with-apr=../apr" \
+"--prefix=/opt/loc" \
+"--exec-prefix=/opt/loc" \
+"--libdir=/opt/loc/lib" \
+"--includedir=/opt/loc/include" \
+"--bindir=/opt/loc/bin" \
+"$@"

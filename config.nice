@@ -1,0 +1,8 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/opt/loc" \
+"--with-pcre=/usr/local/pcre" \
+"$@"
