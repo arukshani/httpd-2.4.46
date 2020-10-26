@@ -1,0 +1,17 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/mydata/httpd-2.4.46/srclib/apr/configure" \
+"--disable-option-checking" \
+"--with-pcre=/usr/local/pcre" \
+"--cache-file=/dev/null" \
+"--srcdir=/mydata/httpd-2.4.46/srclib/apr" \
+"--prefix=/mydata/loc" \
+"--exec-prefix=/mydata/loc" \
+"--libdir=/mydata/loc/lib" \
+"--includedir=/mydata/loc/include" \
+"--bindir=/mydata/loc/bin" \
+"--datadir=/mydata/loc" \
+"--with-installbuilddir=/mydata/loc/build" \
+"$@"
